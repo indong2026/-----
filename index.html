@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>인동고 키우기</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="app">
+
+    <!-- 첫 화면 -->
+    <section id="startPage" class="page active">
+
+        <h1>인동고 키우기</h1>
+
+        <p>인동고를 더욱 좋은 학교로 만들어봅시다.</p>
+
+        <button id="startBtn">시작하기</button>
+
+    </section>
+
+    <!-- 질문 화면 -->
+    <section id="questionPage" class="page">
+
+        <h2>인동고를 다니는 것에<br>불편함이 있습니까?</h2>
+
+        <div class="buttons">
+
+            <button class="yes">네</button>
+            <button class="no">아니오</button>
+
+        </div>
+
+    </section>
+
+    <section id="questionPage2" class="page">
+
+        <h2>수능 공부하느라 바쁜데<br>교복 등교가 불편한가요?</h2>
+
+        <div class="buttons">
+
+            <button id="yesBtn" class="yes">
+                네
+            </button>
+
+            <button id="noBtn" class="no">
+                아니오
+            </button>
+
+        </div>
+
+    </section>
+
+    <section id="questionPage3" class="page">
+
+        <h2>학생 참여 행사가 더<br> 있어야한다 생각하나요?</h2>
+
+        <div class="buttons">
+
+            <button id="yesBtn" class="yes">
+                네
+            </button>
+
+            <button id="noBtn" class="no">
+                아니오
+            </button>
+
+        </div>
+
+    </section>
+
+    <section id="questionPage4" class="page">
+
+        <h2>학생의 의견이 더<br>반영이 되었으면하나요?</h2>
+
+        <div class="buttons">
+
+            <button id="yesBtn" class="yes">
+                네
+            </button>
+
+            <button id="noBtn" class="no">
+                아니오
+            </button>
+
+        </div>
+
+    </section>
+
+    <section id="questionPage5" class="page">
+
+        <h2>이 모든 걸<br>원하신다면..</h2>
+
+        <div class="buttons">
+
+            <button id="yesBtn" class="yes">
+                네
+            </button>
+
+            <button id="noBtn" class="no">
+                아니오
+            </button>
+
+        </div>
+
+    </section>
+
+    <section id="resultPage" class="page">
+
+    <div class="photo">
+         <img src="images/poster.jpg" alt="포스터">
+    </div>
+
+    <div class="info">
+
+        <h2>기호 1번 이로운</h2>
+
+        <div class="section">
+            <ul>
+            <h3>책임감 있는 학생회 행동하는 회장</h3>
+            <li>학급 반장 7회</li>
+            <li>중학교 전교부회장·전교회장</li>
+            <li>구미 시대표 전교회장</li>
+            <li>인동고등학교 23기 전교부회장</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h3>주요 공약</h3>
+            <ul>
+                <li>고3 수능 한 달 전 체육복 등교 건의</li>
+                <li>학생 참여형 행사 추진</li>
+                <li>학생 의견 반영 강화</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <ul>
+            <h3>^어전이^</h3>
+            <li>어차피 전교회장은 이로운</li>
+            <li>어차피 전교회장은 이로운</li>
+            <li>어차피 전교회장은 이로운</li>
+            <li>어차피 전교회장은 이로운</li>
+            <li>어차피 전교회장은 이로운</li>
+            </ul>
+        </div>
+
+    </div>
+
+</section>
+
+    <!-- 정답 표시 -->
+    <div id="correct">
+    <div class="icon">⭕</div>
+    <div class="text"></div>
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
